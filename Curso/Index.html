@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curso Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Curso de mecânica online</h1>
+        <nav>
+            <ul id="cabecalho">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobre">Conteúdo</a></li>
+                <li><a href="#preco">Preços</a></li>
+                <li><a href="#formulário">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Aprenda mecânica online</h2>
+            <strong>
+                <p>Desenvolva suas habilidades com a ajuda de especialistas.</p>
+            </strong>
+            <a href="#formulário" class="btn">Inscreva-se agora</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre o curso</h2>
+        <p>Durante o curso, você terá a oportunidade de aprender mecânica em geral , além de técnicas e ferramentas para
+            desenvolver suas habilidades e tornar-se um mecânica de sucesso. Com o conhecimento adquirido, é possível
+            arrumar carros, motos e etc... </p>
+        <p><strong>Nosso programa inclui:</strong></p>
+        <ul>
+            <li><img src="img/seta.png" alt="" width="15px"> Introdução da mecânica basica</li>
+            <li><img src="img/seta.png" alt="" width="15px">Remapiamento de motos e carros </li>
+            <li><img src="img/seta.png" alt="" width="15px">Como fechar um negocio com seus clientes </li>
+            <li><img src="img/seta.png" alt="" width="15px">Desenvolvimentos de tecnicas avansadas e mecânicas</li>
+        </ul>
+    </section>
+
+    <section id="preco" class="pricing">
+        <h2>Preços</h2>
+        <ul id="valor">
+            <li><img src="img/seta.png" alt="" width="20px">Curso básico: R$200,00</li>
+            <li><img src="img/seta.png" alt="" width="20px">Curso avançado: R$450,00</li>
+            <li><img src="img/seta.png" alt="" width="20px">Curso completo: R$700,00</li>
+        </ul>
+        <p><strong>Inscreva-se agora e obtenha R$80,00 de desconto!</strong></p>
+        <a href="#formulário" class="btn">Inscreva-se agora</a>
+    </section>
+
+    <main id="formulário">
+        <form action="">
+            <div>
+                <label for="Seu Nome">Seu Nome</label>
+                <input type="text" placeholder="" id="nome" required minlength="3" required maxlength="20">
+            </div>
+
+            <div>
+                <label for="E-mail">E-mail</label>
+                <input type="email" placeholder="" id="email" required minlength="20" required maxlength="20">
+            </div>
+
+            <div>
+                <label for="Telefone">Telefone</label>
+                <input type="tel" placeholder="" id="text" required minlength="15" required maxlength="15">
+            </div>
+
+            <div class="row">
+                <label for="Senha">Senha</label>
+                <input type="password" id="password" required minlength="15" required maxlength="15">
+            </div>
+            </div>
+            <div class="espacamento">
+                <button type="submit" class="btn botao"><strong>Quero uma avaliação</strong></button>
+            </div>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>Copyright © 2023</p>
+    </footer>
+    <script src="senha.js"></script>
+</body>
+
+</html>
